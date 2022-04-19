@@ -6,6 +6,8 @@
 - 직접 프로젝트에 적용해보며 SQL Mapper와 차이점을 느껴본다
 - SQL Mapper 방식과 성능 비교를 통해 적용 가능성을 파악한다
 
+![mybatis-vs-hibernate](./mybatis-vs-hibernate.png)
+
 ---
 
 # 1. JPA(Java Persistence API)
@@ -39,6 +41,8 @@
 - 기본적인 CRUD 기능은 엔티티 단위로 제공되며, 제공되는 여러 애노테이션들을 통해 쉽게 매핑 정보를 등록할 수 있다.
     - @Entity - 테이블과 매핑할 클래스 엔티티로 등록
     - @Column - 엔티티 내 필드와 테이블 컬럼 매핑
+
+![member-entity](./member-entity.jpg)
 
 ## 영속성 컨텍스트(Persistence Context)와 엔티티 매니저
 
@@ -89,6 +93,8 @@
 - DAO 계층 개발 시 인터페이스만으로 개발을 완료할 수 있다 (이상적...).
 - 애플리케이션 실행 시점에 Repository 인터페이스들을 찾아 해당 구현 클래스를 동적으로 생성하여, 스프링 빈으로 등록한다.
 - 빈으로 등록된 구현 클래스를 주입받을수 있기에 개발시 인터페이스만 선언해서 개발하게된다. 
+
+![spirng-data-jpa-repository주입](./spirng-data-jpa-repository주입.png)
 
 ## dependency
 
