@@ -56,7 +56,7 @@ Reactor는 WebFlux에서 사용하는 리액티브 스트림 API의 구현체이
 
 ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZzjIv%2Fbtrhjr0XWRt%2Fam0nx1zh4iKUKh9wAwg7f1%2Fimg.png)
 
-Mono는 0~1개의 데이터를 발행하는 Publisher 구현체이며, Flux는 0~N개의 데이터를 발행하는 Publisher 구현체이다.
+Mono는 `0~1`개의 데이터를 발행하는 Publisher 구현체이며, Flux는 `0~N`개의 데이터를 발행하는 Publisher 구현체이다.
 
 ### Programming Model
 
