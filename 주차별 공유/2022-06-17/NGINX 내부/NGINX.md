@@ -100,6 +100,7 @@ NGINX는 한 worker process 당 수백, 수천가지의 connection 을 맺는 �
 
 ## Updating Configuration and Upgrading NGINX
 ![1ee0b530e7a1ab61d8bf628dd926223c.png](../_resources/1ee0b530e7a1ab61d8bf628dd926223c.png)
+
 NGINX Configuration 업데이트는 매우 간단하고 경량화 되었으며 매우 안정화된 연산이다.
 간단하게 말하면 nginx -s reload 명령어를 수행하는 것이며, disk에 있는 configuration을 확인하고 master process에 SIGHUP 시그널을 보낸다.
 
