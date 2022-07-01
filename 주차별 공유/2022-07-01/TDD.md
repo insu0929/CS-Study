@@ -270,7 +270,7 @@ public class StringCalculator{
 4. compose method 패턴
 - 메소드 의도가 잘 드러나도록 동등한 수준의 작업을 하는 여러 단계로 나눈다
 - 추상화 단계를 맞춰줌
-![c8b35acdf768d33f522fe48760426cc5.png](../_resources/c8b35acdf768d33f522fe48760426cc5.png)
+![c8b35acdf768d33f522fe48760426cc5.png](./_resources/c8b35acdf768d33f522fe48760426cc5.png)
 
 # 4 클래스 분리 리팩토링
 - 추가 요구사항:
@@ -285,19 +285,31 @@ public class StringCalculator{
 | "-1,2:3" | RuntimeException |
 
 - Test code 추가
-![faef931a23830c863df755462fb47577.png](../_resources/faef931a23830c863df755462fb47577.png)
+
+
+![faef931a23830c863df755462fb47577.png](./_resources/faef931a23830c863df755462fb47577.png)
 
 - 프로덕션 코드 변경
-![b0575ac6e2a1c5310a72cc8fb2cb5f40.png](../_resources/b0575ac6e2a1c5310a72cc8fb2cb5f40.png)
+
+
+![b0575ac6e2a1c5310a72cc8fb2cb5f40.png](./_resources/b0575ac6e2a1c5310a72cc8fb2cb5f40.png)
 1. 모든 primitive 와 String 포장
-![02698b12c814d42f01012caea9438ed5.png](../_resources/02698b12c814d42f01012caea9438ed5.png)
+
+
+![02698b12c814d42f01012caea9438ed5.png](./_resources/02698b12c814d42f01012caea9438ed5.png)
 
 2. 메소드가 클래스로 분리되는지 확인
-![20a681fe4d74a26872198fed629ff1bc.png](../_resources/20a681fe4d74a26872198fed629ff1bc.png)
+
+
+![20a681fe4d74a26872198fed629ff1bc.png](./_resources/20a681fe4d74a26872198fed629ff1bc.png)
 
 3.프로덕션 코드 변경
-![9ca0d95baeaf1a88e89570274f790720.png](../_resources/9ca0d95baeaf1a88e89570274f790720.png)
+
+
+![9ca0d95baeaf1a88e89570274f790720.png](./_resources/9ca0d95baeaf1a88e89570274f790720.png)
 
 4. Positive add 구현
-![2dfddab5d56e424e95124b53209c0da6.png](../_resources/2dfddab5d56e424e95124b53209c0da6.png)
+
+
+![2dfddab5d56e424e95124b53209c0da6.png](./_resources/2dfddab5d56e424e95124b53209c0da6.png)
 
